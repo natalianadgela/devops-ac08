@@ -30,7 +30,7 @@ def contact(request):
         context_instance = RequestContext(request,
         {
             'title':'Contato',
-            'message':'Entre em contato conosco',
+            'message':'Natalia Nadgela - 1700653 e Kaua Ramires - 1700652',
             'year':datetime.now().year,
         })
     )
@@ -44,7 +44,7 @@ def about(request):
         context_instance = RequestContext(request,
         {
             'title':'About',
-            'message':'Gerenciador de vestibulares',
+            'message':'Natalia Nadgela - 1700653 e Kaua Ramires - 1700652',
             'year':datetime.now().year,
         })
     )
