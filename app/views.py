@@ -83,7 +83,7 @@ def Inscricao_vestibulares(request):
         'app/Inscricao_vestibulares.html',
         context_instance = RequestContext(request,
         {
-            'title':'Inscrição de vestibulares',
+            'title':'Inscricao de vestibulares',
             'inscricoes': Inscricao.objects.all(),
             'year':datetime.now().year,
        })
