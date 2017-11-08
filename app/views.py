@@ -74,7 +74,7 @@ def cadastro_vestibulares(request):
             'vestibulares': Vestibular.objects.all(),
             'year':datetime.now().year,
         })
-)   
+    )   
 
 def Inscricao_vestibulares(request):
     assert isinstance(request, HttpRequest)
@@ -87,4 +87,4 @@ def Inscricao_vestibulares(request):
             'inscricoes': Inscricao.objects.all(),
             'year':datetime.now().year,
        })
-)
+    )
