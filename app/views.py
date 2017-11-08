@@ -76,11 +76,11 @@ def cadastro_vestibulares(request):
         })
 )   
 
-def inscricao_vestibulares(request):
+def Inscricao_vestibulares(request):
         assert isinstance(request, HttpRequest)
         return render(
             request,
-            'app/inscricao_vestibulares.html',
+            'app/Inscricao_vestibulares.html',
             context_instance = RequestContext(request,
         {
             'title':'Inscrição de vestibulares',
