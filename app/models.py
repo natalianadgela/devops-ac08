@@ -15,3 +15,6 @@ class Vestibular(models.Model):
    
 class Cadastro(models.Model):
     nome = models.CharField(max_length=200)
+    
+class Inscricao(models.Model):
+    nome = models.CharField(max_length=200)
